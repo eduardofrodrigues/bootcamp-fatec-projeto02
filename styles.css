@@ -8,12 +8,15 @@ body {
 .container {
     width: 600px;
 
-    background-color: #220D25;
+    background: rgb(88, 28, 99);
+    background: linear-gradient(0deg, rgba(88, 28, 99, 1) 22%, rgba(34, 13, 37, 1) 100%);
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    border-radius: .5rem;
 }
 
 .header {
@@ -36,17 +39,21 @@ body {
 .voting {
     width: 90%;
 
-    background-color: #581C63;
-
+    background: rgb(88, 28, 99);
+    background: linear-gradient(180deg, rgba(88, 28, 99, 1) 22%, rgba(34, 13, 37, 1) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: .5rem;
+    margin-top: .5rem;
+
 }
 
 .votingTitle {
     color: white;
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    margin-top: .5rem;
 }
 
 .input {
@@ -59,12 +66,16 @@ body {
     width: 90%;
     display: flex;
     justify-content: space-around;
-    margin-top: 1rem;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
 }
 
 .options {
-    width: 30%;
+    width: 26%;
     height: 100%;
 
-    background-color: #4369F0;
+    background: rgb(67, 105, 240);
+    background: linear-gradient(180deg, rgba(67, 105, 240, 1) 0%, rgba(113, 202, 254, 1) 100%);
+    border: solid .5rem #2A33C3;
+    border-radius: .4rem;
 }

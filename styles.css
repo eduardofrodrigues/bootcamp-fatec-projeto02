@@ -54,6 +54,7 @@ body {
     font-weight: 400;
     font-size: 1.2rem;
     margin-top: .5rem;
+    text-align: center;
 }
 
 .input {
@@ -104,4 +105,27 @@ body {
 .title {
     color: white;
     font-size: 1.2rem;
+}
+
+@media screen and (max-width: 620px) {
+    html {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .optionsContainer {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .options {
+        max-width: 150px;
+        width: 80%;
+    }
+
 }
